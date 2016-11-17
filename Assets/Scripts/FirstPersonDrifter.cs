@@ -4,13 +4,11 @@ using InControl;
 [RequireComponent(typeof(CharacterController))]
 public class FirstPersonDrifter : MonoBehaviour
 {
-    public float runSpeed = 6.0f;
-    public float crouchSpeed = 10.0f;
+    public float walkSpeed = 6.0f;
+    public float runSpeed = 10.0f;
 
     // If true, diagonal speed (when strafing + moving forward or back) can't exceed normal move speed; otherwise it's about 1.4 times faster
     private bool limitDiagonalSpeed = true;
-
-    public bool enableCrouching = false;
 
     public float jumpSpeed = 4.0f;
     public float gravity = 10.0f;
@@ -60,7 +58,7 @@ public class FirstPersonDrifter : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
         myTransform = transform;
-        speed = runSpeed;
+        speed = walkSpeed;
         rayDistance = controller.height * .5f + controller.radius;
         slideLimit = controller.slopeLimit - .1f;
         jumpTimer = antiBunnyHopFactor;
@@ -77,7 +75,7 @@ public class FirstPersonDrifter : MonoBehaviour
             Debug.Log(input.Direction.X);
             gameObject.GetComponent<MouseLook>().enabled = true;
             gameObject.GetComponentInChildren<HeadBob>().enabled = true;
-            gameObject.GetComponentInChildren<MouseLookY>().enabled = true;
+            gameObject.GetComponentInChildren<MouseLook>().enabled = true;
             jumpSpeed = jumpSpeedOrigin;
         }
         else
@@ -86,7 +84,7 @@ public class FirstPersonDrifter : MonoBehaviour
             inputY = 0;
             gameObject.GetComponent<MouseLook>().enabled = false;
             gameObject.GetComponentInChildren<HeadBob>().enabled = false;
-            gameObject.GetComponentInChildren<MouseLookY>().enabled = false;
+            gameObject.GetComponentInChildren<MouseLook>().enabled = false;
             jumpSpeed = 0;
         }
 
@@ -173,7 +171,7 @@ public class FirstPersonDrifter : MonoBehaviour
         {
             if (footCoolDown < 0)
             {
-                int number = Random.Range(0, 1);
+                //int number = Random.Range(0, 1);
                 footCoolDown = .5f;
             }
             else
