@@ -72,7 +72,6 @@ public class FirstPersonDrifter : MonoBehaviour
         {
             inputX = input.Direction.X;
             inputY = input.Direction.Y;
-            Debug.Log(input.Direction.X);
             gameObject.GetComponent<MouseLook>().enabled = true;
             gameObject.GetComponentInChildren<HeadBob>().enabled = true;
             gameObject.GetComponentInChildren<MouseLook>().enabled = true;

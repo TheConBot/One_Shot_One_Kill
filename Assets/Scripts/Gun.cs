@@ -4,16 +4,33 @@ using InControl;
 
 public class Gun : MonoBehaviour {
 
-    private bool isShotgun;
+    public float sniperDelay = 2;
+    public ParticleSystem Shotgun;
+    public ParticleSystem Sniper;
+
+    private bool isShotgun = true;
     private InputDevice input;
+
+    private bool sniperTimer;
+    private float sniperTimerNum;
 
 	void Update () {
         input = InputManager.ActiveDevice;
 
-        if (input.Action3.WasPressed) isShotgun = !isShotgun;
+        if (input.Action4.WasPressed)
+        {
+            isShotgun = !isShotgun;
+            Debug.Log("Shotgun is: " + isShotgun);
+        }
        
         if (input.RightTrigger.WasPressed) {
+            Debug.Log("Firing gun...");
             StartCoroutine(Shoot(isShotgun));
+        }
+
+        if (sniperTimer)
+        {
+            sniperTimerNum += Time.deltaTime;
         }
 	}
 
@@ -21,16 +38,23 @@ public class Gun : MonoBehaviour {
     {
         if (i)
         {
-
+            Shotgun.Play();
+            Debug.Log("Shotgun has been fired");
         }
         else
         {
-            while (true)
+            while (input.RightTrigger.IsPressed)
             {
-                if (input.RightTrigger.WasReleased)
+                sniperTimer = true;
+                if(sniperTimerNum >= sniperDelay)
                 {
+                    Sniper.Play();
+                    Debug.Log("Sniper has been fired.");
+                    sniperTimer = false;
+                    sniperTimerNum = 0;
                     break;
                 }
+                yield return new WaitForEndOfFrame();
             }
         }
         yield return null;
