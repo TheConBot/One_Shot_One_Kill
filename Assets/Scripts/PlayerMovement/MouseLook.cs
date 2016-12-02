@@ -39,6 +39,8 @@ public class MouseLook : MonoBehaviour
 	public float framesOfSmoothing = 5;
  
 	Quaternion originalRotation;
+
+    private InputDevice input;
 	
 	void Start ()
 	{
@@ -53,12 +55,13 @@ public class MouseLook : MonoBehaviour
  
 	void Update ()
 	{
-        InputDevice input = InputManager.ActiveDevice;
+
         sensitivityX = PlayerPrefs.GetFloat("MOUSESENSITIVITY_KEY", 2.5f);
 
         if (axes == RotationAxes.MouseX)
-		{			
-			rotAverageX = 0f;
+		{
+            input = GetComponent<PlayerManager>().controller;
+            rotAverageX = 0f;
  
 			rotationX += input.RightStick.X * sensitivityX * Time.timeScale;
  
@@ -79,8 +82,9 @@ public class MouseLook : MonoBehaviour
 			transform.localRotation = originalRotation * xQuaternion;			
 		}
 		else
-		{			
-			rotAverageY = 0f;
+		{
+            input = transform.parent.GetComponent<PlayerManager>().controller;
+            rotAverageY = 0f;
  
  			float invertFlag = 1f;
  			if( invertY )

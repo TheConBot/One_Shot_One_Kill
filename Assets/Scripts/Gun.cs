@@ -15,7 +15,7 @@ public class Gun : MonoBehaviour {
     private float sniperTimerNum;
 
 	void Update () {
-        input = InputManager.ActiveDevice;
+        input = transform.parent.transform.parent.GetComponent<PlayerManager>().controller;
 
         if (input.Action4.WasPressed)
         {
