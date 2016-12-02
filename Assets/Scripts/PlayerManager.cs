@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using InControl;
+using UnityEngine.UI;
 
 public class PlayerManager : MonoBehaviour {
 
@@ -16,8 +17,14 @@ public class PlayerManager : MonoBehaviour {
     private Data.Abilities Ability1;
     private Data.Abilities Ability2;
 
+    public Image[] roundWin;
+
     private void Start()
     {
+        foreach(Image i in roundWin)
+        {
+            i.enabled = false;
+        }
         if(PlayerNum == playerNum.p1)
         {
             controller = Data.Players[0];
@@ -31,6 +38,10 @@ public class PlayerManager : MonoBehaviour {
             Ability2 = Data.player2Abilities[1];
         }
 
+    }
 
+    private void OnParticleCollision(GameObject other)
+    {
+        Debug.Log(PlayerNum.ToString() + " was hit with the shotgun.");
     }
 }

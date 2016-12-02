@@ -6,7 +6,6 @@ public class Gun : MonoBehaviour {
 
     public float sniperDelay = 2;
     public ParticleSystem Shotgun;
-    public ParticleSystem Sniper;
 
     private bool isShotgun = true;
     private InputDevice input;
@@ -48,8 +47,8 @@ public class Gun : MonoBehaviour {
                 sniperTimer = true;
                 if(sniperTimerNum >= sniperDelay)
                 {
-                    Sniper.Play();
                     Debug.Log("Sniper has been fired.");
+                    StartCoroutine(SniperRayCast());
                     sniperTimer = false;
                     sniperTimerNum = 0;
                     break;
@@ -58,5 +57,34 @@ public class Gun : MonoBehaviour {
             }
         }
         yield return null;
+    }
+
+    private IEnumerator SniperRayCast()
+    {
+        RaycastHit hit;
+        float length = 1000;
+        Vector3 endPosition = Shotgun.transform.position + (length * Shotgun.transform.forward);
+        if (Physics.Raycast(Shotgun.transform.position, Shotgun.transform.forward, out hit, length))
+        {
+            endPosition = hit.point;
+            if(hit.transform.tag == "Player")
+            {
+                Debug.Log(transform.root.GetComponent<PlayerManager>().PlayerNum.ToString() + "was hit by sniper.");
+            }
+        }
+        LineRenderer lr = GetComponent<LineRenderer>();
+        lr.SetPosition(0, Shotgun.transform.position);
+        lr.SetPosition(1, endPosition);
+        lr.enabled = true;
+        float cutoff = lr.material.GetFloat("_Cutoff");
+        float origCut = cutoff;
+        while(cutoff < 1)
+        {
+            cutoff += Time.deltaTime;
+            lr.material.SetFloat("_Cutoff", cutoff);
+            yield return new WaitForEndOfFrame();
+        }
+        lr.enabled = false;
+        lr.material.SetFloat("_Cutoff", origCut);
     }
 }

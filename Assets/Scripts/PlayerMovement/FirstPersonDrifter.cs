@@ -68,7 +68,6 @@ public class FirstPersonDrifter : MonoBehaviour
     void Update()
     {
         input = GetComponent<PlayerManager>().controller;
-        Debug.Log(input);
         if (enableMovement)
         {
             inputX = input.Direction.X;

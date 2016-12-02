@@ -22,4 +22,7 @@ public static class Data {
 
     public static int player1Level;
     public static int player2Level;
+
+    public static int player1wins;
+    public static int player2wins;
 }
