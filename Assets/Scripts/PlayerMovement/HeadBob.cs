@@ -16,7 +16,7 @@ public class HeadBob : MonoBehaviour
  
 	void Update ()
 	{
-        InputDevice input = transform.parent.GetComponent<PlayerManager>().controller;
+        InputDevice input = transform.root.GetComponent<PlayerManager>().controller;
         float waveslice = 0.0f;
         float horizontal = input.Direction.X;
         float vertical = input.Direction.Y;

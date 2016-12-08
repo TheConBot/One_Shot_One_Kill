@@ -50,7 +50,7 @@ public class FirstPersonDrifter : MonoBehaviour
     private float inputX;
     private float inputY;
     private float footCoolDown;
-    private bool enableMovement = true;
+    public bool enableMovement = true;
 
     private InputDevice input;
 
@@ -73,8 +73,9 @@ public class FirstPersonDrifter : MonoBehaviour
             inputX = input.Direction.X;
             inputY = input.Direction.Y;
             gameObject.GetComponent<MouseLook>().enabled = true;
-            gameObject.GetComponentInChildren<HeadBob>().enabled = true;
+            gameObject.GetComponent<PlayerManager>().canUseAbilities = true;
             gameObject.GetComponentInChildren<MouseLook>().enabled = true;
+            gameObject.GetComponentInChildren<Gun>().enabled = true;
             jumpSpeed = jumpSpeedOrigin;
         }
         else
@@ -82,8 +83,9 @@ public class FirstPersonDrifter : MonoBehaviour
             inputX = 0;
             inputY = 0;
             gameObject.GetComponent<MouseLook>().enabled = false;
-            gameObject.GetComponentInChildren<HeadBob>().enabled = false;
             gameObject.GetComponentInChildren<MouseLook>().enabled = false;
+            gameObject.GetComponent<PlayerManager>().canUseAbilities = false;
+            gameObject.GetComponentInChildren<Gun>().enabled = false;
             jumpSpeed = 0;
         }
 

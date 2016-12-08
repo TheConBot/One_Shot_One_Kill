@@ -1,0 +1,772 @@
+fileFormatVersion: 2
+guid: 249bb832c235c864484ada75bbcc1e53
+timeCreated: 1481056904
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: control
+    100002: gun
+    100004: head/neck
+    100006: L_m1
+    100008: L_m2
+    100010: L_m3
+    100012: L_m_tip
+    100014: L_middle_hand
+    100016: L_p1
+    100018: L_p2
+    100020: L_p3
+    100022: L_p_tip
+    100024: L_pinky_hand
+    100026: L_pointer_hand
+    100028: L_pt1
+    100030: L_pt2
+    100032: L_pt3
+    100034: L_pt_tip
+    100036: L_r1
+    100038: L_r2
+    100040: L_r3
+    100042: L_r_tip
+    100044: L_ring_hand
+    100046: L_t1
+    100048: L_t2
+    100050: L_t_tip
+    100052: L_thumb_hand
+    100054: left
+    100056: left_ankle
+    100058: left_bicep
+    100060: left_foot
+    100062: left_forearm
+    100064: left_shin
+    100066: left_shoulder
+    100068: left_thigh
+    100070: left_toe
+    100072: left_wrist
+    100074: lower_back
+    100076: mid_back
+    100078: N/A
+    100080: //RootNode
+    100082: player_osok
+    100084: R_m1
+    100086: R_m2
+    100088: R_m3
+    100090: R_m_tip
+    100092: R_middle_hand
+    100094: R_p1
+    100096: R_p2
+    100098: R_p3
+    100100: R_p_tip
+    100102: R_pinky_hand
+    100104: R_pointer_hand
+    100106: R_pt1
+    100108: R_pt2
+    100110: R_pt3
+    100112: R_pt_tip
+    100114: R_r1
+    100116: R_r2
+    100118: R_r3
+    100120: R_r_tip
+    100122: R_ring_hand
+    100124: R_t1
+    100126: R_t2
+    100128: R_t_tip
+    100130: R_thumb_hand
+    100132: right_ankle
+    100134: right_bicep
+    100136: right_foot
+    100138: right_forearm
+    100140: right_shin
+    100142: right_shoulder
+    100144: right_thigh
+    100146: right_toes
+    100148: right_wrist
+    100150: upper_back
+    400000: control
+    400002: gun
+    400004: head/neck
+    400006: L_m1
+    400008: L_m2
+    400010: L_m3
+    400012: L_m_tip
+    400014: L_middle_hand
+    400016: L_p1
+    400018: L_p2
+    400020: L_p3
+    400022: L_p_tip
+    400024: L_pinky_hand
+    400026: L_pointer_hand
+    400028: L_pt1
+    400030: L_pt2
+    400032: L_pt3
+    400034: L_pt_tip
+    400036: L_r1
+    400038: L_r2
+    400040: L_r3
+    400042: L_r_tip
+    400044: L_ring_hand
+    400046: L_t1
+    400048: L_t2
+    400050: L_t_tip
+    400052: L_thumb_hand
+    400054: left
+    400056: left_ankle
+    400058: left_bicep
+    400060: left_foot
+    400062: left_forearm
+    400064: left_shin
+    400066: left_shoulder
+    400068: left_thigh
+    400070: left_toe
+    400072: left_wrist
+    400074: lower_back
+    400076: mid_back
+    400078: N/A
+    400080: //RootNode
+    400082: player_osok
+    400084: R_m1
+    400086: R_m2
+    400088: R_m3
+    400090: R_m_tip
+    400092: R_middle_hand
+    400094: R_p1
+    400096: R_p2
+    400098: R_p3
+    400100: R_p_tip
+    400102: R_pinky_hand
+    400104: R_pointer_hand
+    400106: R_pt1
+    400108: R_pt2
+    400110: R_pt3
+    400112: R_pt_tip
+    400114: R_r1
+    400116: R_r2
+    400118: R_r3
+    400120: R_r_tip
+    400122: R_ring_hand
+    400124: R_t1
+    400126: R_t2
+    400128: R_t_tip
+    400130: R_thumb_hand
+    400132: right_ankle
+    400134: right_bicep
+    400136: right_foot
+    400138: right_forearm
+    400140: right_shin
+    400142: right_shoulder
+    400144: right_thigh
+    400146: right_toes
+    400148: right_wrist
+    400150: upper_back
+    2300000: gun
+    3300000: gun
+    4300000: player_osok
+    4300002: gun
+    7400000: IDLE
+    7400002: WALK
+    7400004: DEATH
+    9500000: //RootNode
+    13700000: player_osok
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: IDLE
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 51
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: control
+        weight: 1
+      - path: control/left_thigh
+        weight: 1
+      - path: control/left_thigh/left_shin
+        weight: 1
+      - path: control/left_thigh/left_shin/left_ankle
+        weight: 1
+      - path: control/left_thigh/left_shin/left_ankle/left_foot
+        weight: 1
+      - path: control/left_thigh/left_shin/left_ankle/left_foot/left_toe
+        weight: 1
+      - path: control/lower_back
+        weight: 1
+      - path: control/lower_back/mid_back
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_middle_hand
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_middle_hand/L_m1
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_middle_hand/L_m1/L_m2
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_middle_hand/L_m1/L_m2/L_m3
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_middle_hand/L_m1/L_m2/L_m3/L_m_tip
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pinky_hand
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pinky_hand/L_p1
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pinky_hand/L_p1/L_p2
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pinky_hand/L_p1/L_p2/L_p3
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pinky_hand/L_p1/L_p2/L_p3/L_p_tip
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pointer_hand
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pointer_hand/L_pt1
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pointer_hand/L_pt1/L_pt2
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pointer_hand/L_pt1/L_pt2/L_pt3
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pointer_hand/L_pt1/L_pt2/L_pt3/L_pt_tip
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_ring_hand
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_ring_hand/L_r1
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_ring_hand/L_r1/L_r2
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_ring_hand/L_r1/L_r2/L_r3
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_ring_hand/L_r1/L_r2/L_r3/L_r_tip
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_thumb_hand
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_thumb_hand/L_t1
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_thumb_hand/L_t1/L_t2
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_thumb_hand/L_t1/L_t2/L_t_tip
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/gun
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_middle_hand
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_middle_hand/R_m1
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_middle_hand/R_m1/R_m2
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_middle_hand/R_m1/R_m2/R_m3
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_middle_hand/R_m1/R_m2/R_m3/R_m_tip
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pinky_hand
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pinky_hand/R_p1
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pinky_hand/R_p1/R_p2
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pinky_hand/R_p1/R_p2/R_p3
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pinky_hand/R_p1/R_p2/R_p3/R_p_tip
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pointer_hand
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pointer_hand/R_pt1
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pointer_hand/R_pt1/R_pt2
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pointer_hand/R_pt1/R_pt2/R_pt3
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pointer_hand/R_pt1/R_pt2/R_pt3/R_pt_tip
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_ring_hand
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_ring_hand/R_r1
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_ring_hand/R_r1/R_r2
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_ring_hand/R_r1/R_r2/R_r3
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_ring_hand/R_r1/R_r2/R_r3/R_r_tip
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_thumb_hand
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_thumb_hand/R_t1
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_thumb_hand/R_t1/R_t2
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_thumb_hand/R_t1/R_t2/R_t_tip
+        weight: 1
+      - path: control/lower_back/mid_back/upper_back
+        weight: 1
+      - path: control/lower_back/mid_back/upper_back/head/neck
+        weight: 1
+      - path: control/lower_back/mid_back/upper_back/head/neck/N/A
+        weight: 1
+      - path: control/right_thigh
+        weight: 1
+      - path: control/right_thigh/right_shin
+        weight: 1
+      - path: control/right_thigh/right_shin/right_ankle
+        weight: 1
+      - path: control/right_thigh/right_shin/right_ankle/right_foot
+        weight: 1
+      - path: control/right_thigh/right_shin/right_ankle/right_foot/right_toes
+        weight: 1
+      - path: left
+        weight: 1
+      - path: player_osok
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: WALK
+      takeName: Take 001
+      firstFrame: 2
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: control
+        weight: 1
+      - path: control/left_thigh
+        weight: 1
+      - path: control/left_thigh/left_shin
+        weight: 1
+      - path: control/left_thigh/left_shin/left_ankle
+        weight: 1
+      - path: control/left_thigh/left_shin/left_ankle/left_foot
+        weight: 1
+      - path: control/left_thigh/left_shin/left_ankle/left_foot/left_toe
+        weight: 1
+      - path: control/lower_back
+        weight: 1
+      - path: control/lower_back/mid_back
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_middle_hand
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_middle_hand/L_m1
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_middle_hand/L_m1/L_m2
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_middle_hand/L_m1/L_m2/L_m3
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_middle_hand/L_m1/L_m2/L_m3/L_m_tip
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pinky_hand
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pinky_hand/L_p1
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pinky_hand/L_p1/L_p2
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pinky_hand/L_p1/L_p2/L_p3
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pinky_hand/L_p1/L_p2/L_p3/L_p_tip
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pointer_hand
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pointer_hand/L_pt1
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pointer_hand/L_pt1/L_pt2
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pointer_hand/L_pt1/L_pt2/L_pt3
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pointer_hand/L_pt1/L_pt2/L_pt3/L_pt_tip
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_ring_hand
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_ring_hand/L_r1
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_ring_hand/L_r1/L_r2
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_ring_hand/L_r1/L_r2/L_r3
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_ring_hand/L_r1/L_r2/L_r3/L_r_tip
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_thumb_hand
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_thumb_hand/L_t1
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_thumb_hand/L_t1/L_t2
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_thumb_hand/L_t1/L_t2/L_t_tip
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/gun
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_middle_hand
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_middle_hand/R_m1
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_middle_hand/R_m1/R_m2
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_middle_hand/R_m1/R_m2/R_m3
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_middle_hand/R_m1/R_m2/R_m3/R_m_tip
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pinky_hand
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pinky_hand/R_p1
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pinky_hand/R_p1/R_p2
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pinky_hand/R_p1/R_p2/R_p3
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pinky_hand/R_p1/R_p2/R_p3/R_p_tip
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pointer_hand
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pointer_hand/R_pt1
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pointer_hand/R_pt1/R_pt2
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pointer_hand/R_pt1/R_pt2/R_pt3
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pointer_hand/R_pt1/R_pt2/R_pt3/R_pt_tip
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_ring_hand
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_ring_hand/R_r1
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_ring_hand/R_r1/R_r2
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_ring_hand/R_r1/R_r2/R_r3
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_ring_hand/R_r1/R_r2/R_r3/R_r_tip
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_thumb_hand
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_thumb_hand/R_t1
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_thumb_hand/R_t1/R_t2
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_thumb_hand/R_t1/R_t2/R_t_tip
+        weight: 1
+      - path: control/lower_back/mid_back/upper_back
+        weight: 1
+      - path: control/lower_back/mid_back/upper_back/head/neck
+        weight: 1
+      - path: control/lower_back/mid_back/upper_back/head/neck/N/A
+        weight: 1
+      - path: control/right_thigh
+        weight: 1
+      - path: control/right_thigh/right_shin
+        weight: 1
+      - path: control/right_thigh/right_shin/right_ankle
+        weight: 1
+      - path: control/right_thigh/right_shin/right_ankle/right_foot
+        weight: 1
+      - path: control/right_thigh/right_shin/right_ankle/right_foot/right_toes
+        weight: 1
+      - path: left
+        weight: 1
+      - path: player_osok
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: DEATH
+      takeName: Take 001
+      firstFrame: 52
+      lastFrame: 83
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: control
+        weight: 1
+      - path: control/left_thigh
+        weight: 1
+      - path: control/left_thigh/left_shin
+        weight: 1
+      - path: control/left_thigh/left_shin/left_ankle
+        weight: 1
+      - path: control/left_thigh/left_shin/left_ankle/left_foot
+        weight: 1
+      - path: control/left_thigh/left_shin/left_ankle/left_foot/left_toe
+        weight: 1
+      - path: control/lower_back
+        weight: 1
+      - path: control/lower_back/mid_back
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_middle_hand
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_middle_hand/L_m1
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_middle_hand/L_m1/L_m2
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_middle_hand/L_m1/L_m2/L_m3
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_middle_hand/L_m1/L_m2/L_m3/L_m_tip
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pinky_hand
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pinky_hand/L_p1
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pinky_hand/L_p1/L_p2
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pinky_hand/L_p1/L_p2/L_p3
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pinky_hand/L_p1/L_p2/L_p3/L_p_tip
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pointer_hand
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pointer_hand/L_pt1
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pointer_hand/L_pt1/L_pt2
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pointer_hand/L_pt1/L_pt2/L_pt3
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_pointer_hand/L_pt1/L_pt2/L_pt3/L_pt_tip
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_ring_hand
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_ring_hand/L_r1
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_ring_hand/L_r1/L_r2
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_ring_hand/L_r1/L_r2/L_r3
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_ring_hand/L_r1/L_r2/L_r3/L_r_tip
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_thumb_hand
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_thumb_hand/L_t1
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_thumb_hand/L_t1/L_t2
+        weight: 1
+      - path: control/lower_back/mid_back/left_shoulder/left_bicep/left_forearm/left_wrist/L_thumb_hand/L_t1/L_t2/L_t_tip
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/gun
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_middle_hand
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_middle_hand/R_m1
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_middle_hand/R_m1/R_m2
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_middle_hand/R_m1/R_m2/R_m3
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_middle_hand/R_m1/R_m2/R_m3/R_m_tip
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pinky_hand
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pinky_hand/R_p1
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pinky_hand/R_p1/R_p2
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pinky_hand/R_p1/R_p2/R_p3
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pinky_hand/R_p1/R_p2/R_p3/R_p_tip
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pointer_hand
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pointer_hand/R_pt1
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pointer_hand/R_pt1/R_pt2
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pointer_hand/R_pt1/R_pt2/R_pt3
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_pointer_hand/R_pt1/R_pt2/R_pt3/R_pt_tip
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_ring_hand
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_ring_hand/R_r1
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_ring_hand/R_r1/R_r2
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_ring_hand/R_r1/R_r2/R_r3
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_ring_hand/R_r1/R_r2/R_r3/R_r_tip
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_thumb_hand
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_thumb_hand/R_t1
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_thumb_hand/R_t1/R_t2
+        weight: 1
+      - path: control/lower_back/mid_back/right_shoulder/right_bicep/right_forearm/right_wrist/R_thumb_hand/R_t1/R_t2/R_t_tip
+        weight: 1
+      - path: control/lower_back/mid_back/upper_back
+        weight: 1
+      - path: control/lower_back/mid_back/upper_back/head/neck
+        weight: 1
+      - path: control/lower_back/mid_back/upper_back/head/neck/N/A
+        weight: 1
+      - path: control/right_thigh
+        weight: 1
+      - path: control/right_thigh/right_shin
+        weight: 1
+      - path: control/right_thigh/right_shin/right_ankle
+        weight: 1
+      - path: control/right_thigh/right_shin/right_ankle/right_foot
+        weight: 1
+      - path: control/right_thigh/right_shin/right_ankle/right_foot/right_toes
+        weight: 1
+      - path: left
+        weight: 1
+      - path: player_osok
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

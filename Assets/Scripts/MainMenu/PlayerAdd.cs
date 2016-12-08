@@ -22,6 +22,12 @@ public class PlayerAdd : MonoBehaviour
     private bool player1Ready;
     private bool player2Ready;
 
+    void Start()
+    {
+        Data.Players[0] = null;
+        Data.Players[1] = null;
+    }
+
     void Update()
     {
 
@@ -52,7 +58,15 @@ public class PlayerAdd : MonoBehaviour
 
         if(player1Ready && player2Ready)
         {
-            SceneManager.LoadScene("Alpha_Scene");
+            if(Data.player1Level == Data.player2Level)
+            {
+                SceneManager.LoadScene(Data.player1Level + 1);
+            }
+            else
+            {
+                int i = Mathf.RoundToInt(Random.value);
+                SceneManager.LoadScene(i + 1);
+            }
         }
 
     }

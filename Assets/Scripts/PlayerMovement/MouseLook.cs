@@ -83,7 +83,7 @@ public class MouseLook : MonoBehaviour
 		}
 		else
 		{
-            input = transform.parent.GetComponent<PlayerManager>().controller;
+            input = transform.root.GetComponent<PlayerManager>().controller;
             rotAverageY = 0f;
  
  			float invertFlag = 1f;

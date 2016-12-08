@@ -7,16 +7,20 @@ public class Gun : MonoBehaviour {
     public float sniperDelay = 2;
     public ParticleSystem Shotgun;
 
+    public AudioSource shotgunSound;
+    public AudioSource sniperSound;
+
     private bool isShotgun = true;
     private InputDevice input;
 
     private bool sniperTimer;
     private float sniperTimerNum;
+    public bool canShoot = true;
 
 	void Update () {
-        input = transform.parent.transform.parent.GetComponent<PlayerManager>().controller;
+        input = transform.root.gameObject.GetComponent<PlayerManager>().controller;
 
-        if (input.Action4.WasPressed)
+        if (input.RightBumper.WasPressed)
         {
             isShotgun = !isShotgun;
             Debug.Log("Shotgun is: " + isShotgun);
@@ -35,25 +39,30 @@ public class Gun : MonoBehaviour {
 
     IEnumerator Shoot(bool i)
     {
-        if (i)
+        if (canShoot)
         {
-            Shotgun.Play();
-            Debug.Log("Shotgun has been fired");
-        }
-        else
-        {
-            while (input.RightTrigger.IsPressed)
+            if (i)
             {
-                sniperTimer = true;
-                if(sniperTimerNum >= sniperDelay)
+                Shotgun.Play();
+                shotgunSound.Play();
+                Debug.Log("Shotgun has been fired");
+            }
+            else
+            {
+                while (input.RightTrigger.IsPressed)
                 {
-                    Debug.Log("Sniper has been fired.");
-                    StartCoroutine(SniperRayCast());
-                    sniperTimer = false;
-                    sniperTimerNum = 0;
-                    break;
+                    sniperTimer = true;
+                    if (sniperTimerNum >= sniperDelay)
+                    {
+                        Debug.Log("Sniper has been fired.");
+                        sniperSound.Play();
+                        StartCoroutine(SniperRayCast());
+                        sniperTimer = false;
+                        sniperTimerNum = 0;
+                        break;
+                    }
+                    yield return new WaitForEndOfFrame();
                 }
-                yield return new WaitForEndOfFrame();
             }
         }
         yield return null;
@@ -69,7 +78,7 @@ public class Gun : MonoBehaviour {
             endPosition = hit.point;
             if(hit.transform.tag == "Player")
             {
-                Debug.Log(transform.root.GetComponent<PlayerManager>().PlayerNum.ToString() + "was hit by sniper.");
+                hit.transform.root.GetComponent<PlayerManager>().deadTrigger = true;
             }
         }
         LineRenderer lr = GetComponent<LineRenderer>();
